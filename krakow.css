@@ -1,0 +1,42 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1rem;
+    text-align: left;
+}
+
+thead th {
+    background-color: #006400; 
+    color: white;
+    padding: 10px;
+}
+
+td, th {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1; 
+}
+
+thead th:nth-child(1) {
+    width: 25%; 
+}
+
+thead th:nth-child(2) {
+    width: 20%; 
+}
+
+thead th:nth-child(3) {
+    width: 15%; 
+}
+
+thead th:nth-child(4) {
+    width: 40%; 
+}
+
+td {
+    color: #333;
+}
